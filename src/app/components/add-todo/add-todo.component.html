@@ -1,0 +1,15 @@
+<form (ngSubmit)="onSubmit()">
+  <label for="usr">Add Todo:</label>
+  <div class="input-group">
+    <input
+      type="text"
+      class="form-control"
+      [(ngModel)]="title"
+      placeholder="Add your todo here"
+      name="title"
+    />
+    <div class="input-group-append">
+      <button type="submit" class="btn btn-success">Button</button>
+    </div>
+  </div>
+</form>
